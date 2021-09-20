@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+.fa {  /*social media icons*/
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.fa:hover {
+   opacity: 0.8;
+}
+.fa-facebook {
+    background: rgb(170, 165, 165);
+    color: white;
+}
+.fa-instagram {
+    background: rgb(170, 165, 165);
+    color: white;
+}
+.fa-youtube {
+    background: rgb(170, 165, 165);
+    color: white;
+}
+.fa-soundcloud {
+    background: rgb(170, 165, 165);
+    color: white;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: rgba(78, 234, 240, 0.726) /*dimgrey*/;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 48px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+h2 {
+    color: gray; /*dimgrey;*/
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-font-smoothing: antialiased;
+}
+h3 {
+    color: hsl(0, 0%, 25%);
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+#buttonbar {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+.b1 {
+    border-style: none;
+    cursor: pointer;
+    background-color: #F0F0F0;
+    font-family: 'Georama', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+}
+.b1:hover {background-color: #77b39f}
+.b2 {
+    border-style: none;
+    cursor: pointer;
+    background-color: #F0F0F0;
+    font-family: 'Georama', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+}
+.b2:hover {background-color: #77b39f}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px;
+    width: 27%;
+} 
+.portrait {
+    background-image: url("portrait.jpg");
+    background-color: white;
+    height: 378px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+}
+.par1 {
+    /*color: dimgray; /*dimgrey;*/
+    color: hsl(0, 0%, 15%);
+    text-align: justify;
+    font-family: 'Georama', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    /*width: 40%;*/
+    margin-left: 5%;
+    /*padding-top: 5px;*/
+    /*padding-bottom: 5px;*/
+    -webkit-font-smoothing: antialiased;
+}
+.par2 {
+    /*color: dimgray; /*dimgrey;*/
+    color: hsl(0, 0%, 15%);
+    text-align: right;
+    font-family: 'Georama', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    /*width: 40%;*/
+    margin-right: 5%;
+    /*padding-top: 5px;*/
+    /*padding-bottom: 5px;*/
+    -webkit-font-smoothing: antialiased;
+}
